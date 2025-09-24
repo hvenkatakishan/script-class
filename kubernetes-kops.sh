@@ -38,6 +38,9 @@ kops create cluster --name rahamss.k8s.local --zones us-east-1a --control-plane-
 # Applies the above configuration and actually provisions the cluster on AWS.
 # The --yes flag confirms the changes, and --admin generates admin credentials.
 kops update cluster --name rahams.k8s.local --yes --admin
+#instance delete with the help of commends
+kops delete cluster --name rahams.k8s.local --yes
+
 
 
 
