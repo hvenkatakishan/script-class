@@ -13,6 +13,8 @@ unzip awscliv2.zip
 # Run the installation script with sudo
 sudo ./aws/install
 
+aws configure
+
 #This script installs kubectl (Kubernetes CLI) and kops (Kubernetes cluster management tool) on your Linux system so you can create and manage Kubernetes clusters on AWS.
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 wget https://github.com/kubernetes/kops/releases/download/v1.33.0/kops-linux-amd64
